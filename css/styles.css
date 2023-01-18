@@ -22,13 +22,13 @@ body {
   width: 100vw;
 }
 
-.card {
+.container {
   background-color: var(--Dark-Blue);
   width: 400px;
   height: 400px;
   padding: 30px;
   border-radius: 30px;
-  margin: 230px auto;
+  margin: 220px auto;
 }
 
 .card__icon--container {

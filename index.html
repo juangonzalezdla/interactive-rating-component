@@ -15,34 +15,36 @@
 </head>
 
 <body>
-  <main class="card">
-
-    <div class="card__icon--container">
-      <img class="card__icon" src="./images/icon-star.svg" alt="Star icon">
-    </div>
-
-    <h1 class="card__title">How did we do?</h1>
-    <p class="card__text">Please let us know how we did with your support request. All feedback is appreciated to help us improve our
-    offering!</p>
-
-    <div class="card__buttons--container">
-      <button class="card__buttons">1</button>
-      <button class="card__buttons">2</button>
-      <button class="card__buttons">3</button>
-      <button class="card__buttons">4</button>
-      <button class="card__buttons">5</button>
-    </div>
-
-    <button class="card__cta">SUBMIT</button>
-
-    <div class="inactive">
-      <div>
-        <img src="./images/illustration-thank-you.svg" alt="Ilustration thank you">
+  <main class="container ">
+    <div class="card inactive">
+      <div class="card__icon--container">
+        <img class="card__icon" src="./images/icon-star.svg" alt="Star icon">
       </div>
-      <span>You selected <!-- Add rating here --> out of 5</span>
-      <h2>Thank you!</h2>
-      <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in
-        touch!</p>
+
+      <h1 class="card__title">How did we do?</h1>
+      <p class="card__text">Please let us know how we did with your support request. All feedback is appreciated to help
+        us improve our
+        offering!</p>
+
+      <div class="card__buttons--container">
+        <button class="card__buttons">1</button>
+        <button class="card__buttons">2</button>
+        <button class="card__buttons">3</button>
+        <button class="card__buttons">4</button>
+        <button class="card__buttons">5</button>
+      </div>
+
+      <button class="card__cta">SUBMIT</button>
+    </div>
+
+    <div class="thankyou">
+      <div class="thankyou__img--container">
+        <img class="thankyou__img" src="./images/illustration-thank-you.svg" alt="Ilustration thank you">
+      </div>
+      <p class="thankyou__rating">You selected <span id="rating">5</span> out of 5</p>
+      <h2 class="thankyou__title">Thank you!</h2>
+      <p class="thankyou__text">We appreciate you taking the time to give a rating. If you ever need more support, don’t
+      hesitate to get intouch!</p>
     </div>
   </main>
 </body>
