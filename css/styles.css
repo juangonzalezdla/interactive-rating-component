@@ -32,8 +32,8 @@ body {
 }
 
 .card__icon--container {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background-color: var(--Medium-Grey);
   display: flex;
@@ -49,7 +49,7 @@ body {
 }
 
 .card__text {
-  color: var(--Medium-Grey);
+  color: var(--Light-Grey);
   font-weight: 500;
   line-height: 1.5;
   margin-bottom: 30px;
@@ -68,6 +68,7 @@ body {
   border-radius: 50%;
   background-color: var(--Medium-Grey);
   color: var(--White);
+  font-weight: 500;
   border: none;
 }
 
@@ -87,6 +88,8 @@ body {
   background-color: var(--Orange);
   color: var(--White);
   font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 2px;
   border: none;
   border-radius: 30px;
   padding: 15px;
@@ -96,6 +99,37 @@ body {
   background-color: var(--White);
   color: var(--Orange);
   cursor: pointer;
+}
+
+.thankyou {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thankyou__img {
+  margin-bottom: 20px;
+}
+
+.thankyou__rating {
+  background-color: var(--Very-Dark-Blue);
+  color: var(--Orange);
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.thankyou__title {
+  color: var(--White);
+  margin-bottom: 20px;
+}
+
+.thankyou__text {
+  text-align: center;
+  color: var(--Light-Grey);
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 .inactive {
