@@ -1,0 +1,18 @@
+@media  (max-width: 500px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 394px) {
+  .container {
+    height: 420px;
+  }
+}
+
+@media (max-width: 375px) {
+  .card__buttons {
+    width: 40px;
+    height: 40px;
+  }
+}
