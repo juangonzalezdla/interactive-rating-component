@@ -66,6 +66,10 @@ body {
   margin-bottom: 30px;
 }
 
+.card__buttons__ul {
+  list-style: none;
+}
+
 .card__buttons {
   width: 50px;
   height: 50px;
