@@ -1,4 +1,8 @@
 @media  (max-width: 500px) {
+  body {
+    height: 100vh;
+  }
+
   .container {
     width: 90%;
   }
