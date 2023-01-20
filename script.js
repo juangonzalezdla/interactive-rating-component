@@ -9,3 +9,9 @@ submitBtn.addEventListener('click', () => {
   secondView.classList.toggle('inactive');
   firstView.style.display = 'none';
 });
+
+rates.forEach((rate) => {
+  rate.addEventListener('click', () => {
+    rating.innerHTML = rate.innerHTML;
+  });
+});
